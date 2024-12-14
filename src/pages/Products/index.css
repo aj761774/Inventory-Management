@@ -1,0 +1,41 @@
+.title {
+    font-size: 24px;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.product-table {
+  border: 1px solid #ffffff80;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.product-table-header {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr 2fr 2fr 2fr;
+  padding: 10px;
+  border-bottom: 1px solid #ffffff80;
+  font-size: 12px;
+}
+
+.product-table-header > span {
+    border-radius: 4px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(156, 199, 156);
+    width: fit-content;
+    padding: 5px;
+}

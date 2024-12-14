@@ -1,0 +1,18 @@
+.toggle-track {
+    display: inline-flex;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.toggle-btn {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}

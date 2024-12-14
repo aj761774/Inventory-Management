@@ -1,0 +1,20 @@
+.card {
+    min-width: 200px;
+    width: 21.9%;
+    background-color: rgb(53, 73, 53);
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+}
+
+.card-icon {
+    width: 24px;
+    height: fit-content;
+}
+
+.card-title-value > div:last-child {
+  font-size: 20px;
+  font-weight: bold;
+}

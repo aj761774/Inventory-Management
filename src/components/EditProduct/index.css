@@ -1,0 +1,81 @@
+.edit-product-modal-wrapper {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-product-modal {
+    padding: 20px;
+    border-radius: 15px;
+    background: rgb(43, 45, 43);
+}
+
+.edit-product-form-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+
+.edit-product-form-body {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.edit-product-name {
+    font-size: 12px;
+}
+
+.edit-product-form-body > div {
+    width: 150px;
+}
+
+.edit-product-form-body input {
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(28, 28, 28);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+}
+
+.edit-product-form-body > div > div {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.edit-product-form-footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.edit-product-form-footer > button {
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-product-form-footer > button:last-child {
+    background: green;
+}

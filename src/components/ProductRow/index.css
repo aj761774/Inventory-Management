@@ -1,0 +1,44 @@
+.product-table-row {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr 2fr 2fr 2fr;
+  padding: 10px;
+  border-bottom: 1px solid #ffffff80;
+  font-size: 12px;
+}
+
+.product-table-row:last-child {
+  border-bottom: none;
+}
+
+.product-table-row > span:last-child {
+  display: flex;
+  gap: 10px;
+}
+
+.product-table-row.disabled > span {
+  opacity: 0.5;
+}
+
+.product-table-row.disabled > span:last-child {
+  opacity: 1;
+}
+
+.action-btn {
+  background: rgb(21, 24, 21);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.action-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.product-table-row.not-permitted {
+  opacity: 0.5;
+}
